@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Ximena Roxsan">
+    <meta name="description" content="Portafolio de desarrollo web de Ximena Roxsan">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Ximena Roxsan | Tec. Quimica Industrial</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="ximena.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="ximena.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="ximqui.jpg" alt="Foto de Xime Roxsan" width="300">
+        <h1>Hola, Soy Ximena Roxsan</h1>
+        <h2>Estudiante de Quimica Industrial y Programacion. </h2>
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="ximena.jpg" alt="Procesos, Destilaciones, Pruebas. " width="300">
+      </div>
+    </section>
+
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo"><center>Conoce a Ximena Roxsan</center></h2>
+        <p class="seccion-texto"><center>Soy amante de la musica, me ayuda a tener el pulso que necesito al estar trabajando. Desarrollo paginas web. Practico equitacion.</center> </p>
+
+    
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Relevante</p>
+            <p>Estoy culminando mis estudios con un exceente promedio, reconocimientos de olimpiadas y desarrolladas actividades educativas. Proximamene a graduarme con Mencion Honorifica.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Elemento</span>
+              <span class="badge text-bg-primary">Industria</span>
+              <span class="badge text-bg-primary">Deporte</span>
+              <span class="badge text-bg-primary">Programacion</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Lo que mas me gusta!</p>
+            <p>Salir a montar, la tranquilida de solo ser tu, con tu compañero. me encan estar haciendo mis aplicaciones de microobiologia y hacer las verificaciones de producto. Practicar basquetbool.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Microobiologia</span>
+              <span class="badge text-bg-primary">Tranquilidad</span>
+              <span class="badge text-bg-primary">Laboratorio</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Estudiante</p>
+            <p>De lunes a viernes siendo Quimica, los sabados siendo Programadora de Paginas Web.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Tecnolochicas PRO</span>
+              <span class="badge text-bg-primary">Desarrollo Web</span>
+              <span class="badge text-bg-primary">Programacion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro"><center>Mis proyectos recientes</center></h2>
+      <h3 class="seccion-descripcion"><center>Estos son algunos de los que eh realizado recientemente...</center></h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="Microbiologia.jpg" alt="Proyecto 1" width="300">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div class="iconos-contenedor">
+                  <a href="https://concepto.de/microbiologia/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="equitacion.jpg" alt="Proyecto 1" width="300">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div class="iconos-contenedor">
+                  <a href="https://definicion.de/equitacion/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="programacion.jpg" alt="Proyecto 1" width="300">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div class="iconos-contenedor">
+                  <a href="https://vleeko.com/web/?gclid=EAIaIQobChMIj4fI9f7d-wIV7gGtBh2Z9gDsEAAYASAAEgI6DfD_BwE" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="tranquilidad.jpg" alt="Proyecto 1" width="300">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div class="iconos-contenedor">
+                  <a href="https://blog.terranea.es/efecto-calmante-caballos-en-personas/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="basquetbol.jpg" alt="Proyecto 1" width="300">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div class="iconos-contenedor">
+                  <a href="https://concepto.de/basquetbol/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="quimica 2.jpg" alt="Proyecto 1" width="300">
+              <div class="overlay">
+                <p>Proyecto 6</p>
+                <div class="iconos-contenedor">
+                  <a href="https://www.euroinnova.mx/blog/que-es-la-quimica-industrial" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://www.google.com/webhp?hl=es&ictx=2&sa=X&ved=0ahUKEwi42JWk_937AhXxBEQIHeDSBgcQPQgI" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro"><center>Artículos</center></h2>
+      <div class="card">
+        <div class="card-header">
+          <center>Más recientes</center>
+        </div><center>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.definicionabc.com/tecnologia/tecnico.php#:~:text=Individuo%20que%20maneja%20una%20t%C3%A9cnica&text=El%20de%20t%C3%A9cnico%20es%20un,ejecutar%20la%20t%C3%A9cnica%20en%20cuesti%C3%B3n.">
+            <li class="list-group-item">
+              Que es ser tecnico?
+            </li>
+          </a>
+          <a href="https://www.epitech-it.es/por-que-aprender-programacion/#:~:text=Tener%20conocimientos%20de%20programaci%C3%B3n%20te,digital%20que%20evoluciona%20muy%20r%C3%A1pido." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Beneficios de saber programar.
+            </li>
+          </a>
+          <a href="https://www.horselife.es/2020/05/beneficios-de-la-equitacion/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Beneficios de la equitacion
+            </li>
+          </a>
+          <a href="https://es.wikipedia.org/wiki/Microbiolog%C3%ADa" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Microbiologia
+            </li>
+          </a>
+          <a href="http://www.derecho.uba.ar/extension/deportes_beneficios-del-basquetbol-a-la-salud.php" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              En que influye el basquetbol
+            </li>
+          </a>
+        </ul>
+      </div>
+      <a href="http://www.derecho.uba.ar/extension/deportes_beneficios-del-basquetbol-a-la-salud.php" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i></center>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo"><center>Testimonios</center></h2>
+      <h3 class="seccion-descripcion"><center>Puntos de vista  de mis amigos respecto a mis actividades</center></h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container"><center>
+              <img class="testimonio-imagen rounded-circle" src="cris.jpg" alt="Foto de Cris" width="300">
+              <p class="testimonio-texto"> El basquetbol es un dporte muy cool, a mi me gusta y mas cuando lo sabes jugar.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Cris</p>
+                <p class="cargo">Tec. Quimico Industrial, Deportista  </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="mor.jpg" alt="Foto de Mor" width="300">
+              <p class="testimonio-texto"> La quimica es una ciencia muy bonita.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Mor</p>
+                <p class="cargo">Ing. Quimica.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="cheyli.jpg" alt="Foto de Cheyli" width="300">
+              <p class="testimonio-texto"> Al igual que Xime amo la Equitacion. Es un deporte muy culto.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Leonardo</p>
+                <p class="cargo">Profecional en Equitacion</p></center>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+              Contáctame y resolvamos tus dudad sobre la Quimica, y hagamos tu pagina Web.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="mailto:janedoe@micorreo.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://www.facebook.com/ximena.rosales.75054?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://instagram.com/xime_sanchez16?igshid=ZDdkNTZiNTM=" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="https://www.whatsapp.com/?lang=es" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="xr761630@gmail.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">Creado por Ximena Roxsan (2022) &#169;</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
+Footer
+© 2022 Creado por Ximena Roxsan, Inc.
+Footer navigation
+Terms
+Privacy
+Securit
